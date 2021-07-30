@@ -16,7 +16,7 @@ func main () {
 		keySlice[i] = k
 		i++
 
-		varSlice = append(varSlice,v)
+		varSlice = append(varSlice,v)		// int切片可以使用append直接扩展元素，string切片不能，要定义len长度
 	}
 	fmt.Println(keySlice,varSlice)
 }
